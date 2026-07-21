@@ -12,8 +12,8 @@ Configure a basic Spring application using XML-based configuration and Maven.
 - Verified dependency injection by running the application
 
 ## Output
-Hello World!
-Inside BookService
+Hello World! 
+Inside BookService 
 Inside BookRepository
 
 

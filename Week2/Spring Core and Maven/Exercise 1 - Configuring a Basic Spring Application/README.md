@@ -3,19 +3,19 @@
 ## Objective
 Configure a basic Spring application using XML-based configuration and Maven.
 
-## What was implemented
-- Created a Maven project named **LibraryManagement**
-- Added Spring Core dependency in `pom.xml`
-- Configured beans using `applicationContext.xml`
-- Created `BookService` and `BookRepository` classes
-- Loaded the Spring container using `ClassPathXmlApplicationContext`
-- Verified dependency injection by running the application
+## Implementation
+- Created a Maven project named **LibraryManagement**.
+- Added Spring Core and Spring Context dependencies in `pom.xml`.
+- Created `BookService` and `BookRepository` classes.
+- Configured both classes as Spring beans in `applicationContext.xml`.
+- Loaded the Spring Application Context using `ClassPathXmlApplicationContext`.
+- Retrieved the `BookService` bean and verified the configuration by running the application.
 
 ## Output
-Hello World! 
-Inside BookService 
+The application starts successfully and displays:
+Hello World!
+Inside BookService
 Inside BookRepository
 
-
 ## Conclusion
-This exercise demonstrates the basic configuration of the Spring Framework using XML configuration and Dependency Injection.
+This exercise demonstrates the basic setup of a Spring application using XML-based bean configuration and the Spring IoC container.
